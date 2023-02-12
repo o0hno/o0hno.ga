@@ -13,15 +13,16 @@ body{
     text-align: center;
     border: 2px solid #acacac;
     padding: 14px 40px;
-    width: 200px;
+    width: 500px;
     outline: none;
-    color: white;
+    color: rgb(167, 226, 187);
     border-radius: 24px;
     transition: 0.50s;
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 43%;
+    left: 33%;
+
 }
 
 .Nametext {
