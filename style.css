@@ -63,3 +63,10 @@ body {
     font-size: 56px;
     margin-bottom: 10px;
 }
+
+.menu-link {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
