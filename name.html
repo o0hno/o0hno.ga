@@ -10,15 +10,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div clsss="from">
+    <div class="from">
         <h1 class="textrobux">Введите никнейм в роблоксе</h1>
         <div class="input-form">
-            <input class="Nametext" type="text" placeholder="Никнейм">   
+            <form action="lol.html" method="get">
+                <input class="Nametext" type="text" placeholder="Никнейм" required oninvalid="this.setCustomValidity('Пожалуйста, введите ваш никнейм.')">   
+                <input class="Button" type="submit" name="" value="Получить">
+            </form>
         </div>
-        <form action="lol.html " ethod="get">
-            <input class="Button" type="submit" name="" value="Получить">
-        </div>
-
     </div>
 </body>
 </html>

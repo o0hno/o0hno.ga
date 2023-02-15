@@ -51,11 +51,13 @@ body {
 .button {
     display: inline-block;
     color: #fff;
-    padding: 22px 72px;
+    padding: 24px 72px;
     text-decoration: none;
     background: linear-gradient(44deg, #64c08b, #616161);
     margin-top: 50px;
     border-radius: 8px;
+
+
 
 }
 
@@ -75,3 +77,4 @@ body {
     max-width: 560px;
     line-height: 1.1;
 }
+
