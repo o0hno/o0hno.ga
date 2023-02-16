@@ -56,28 +56,17 @@ body {
     font-size: 24px;
 }
 
-.main-title {
-    font-size: 56px;
-    margin-bottom: 10px;
-    position: absolute;
-    margin: 180px auto;
-    display: block;
-transform: translate(-50%, -50%);
-}
-
 .main-desc {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin: 260px auto;
-    display: block;
+    top: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 30%;
-
-
 
 }
+
 
 .button {
 
@@ -104,8 +93,12 @@ transform: translate(-50%, -50%);
     margin-left: 25%;
 }
 
-.main-title2 {
+.main-title {
     font-size: 56px;
-    margin-bottom: 10px;
-}
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
 
