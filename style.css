@@ -30,7 +30,7 @@ body {
 }
 .bobux {
     position: absolute;
-    top: 1%;
+    top: 5%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
