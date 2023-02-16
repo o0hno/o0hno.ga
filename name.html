@@ -15,9 +15,20 @@
         <div class="input-form">
             <form action="lol.html" method="get" novalidate>
                 <input class="Nametext" type="text" name="username" placeholder="Никнейм" required>
-                <input class="Button" type="submit" name="" value="Получить">
+                <input class="Button" type="submit" name="" value="Получить" disabled>
             </form>
         </div>
     </div>
+    <script>
+        const input = document.querySelector(".Nametext");
+        const button = document.querySelector(".Button");
+        input.addEventListener("input", function() {
+            if (input.value.trim() !== "") {
+                button.disabled = false;
+            } else {
+                button.disabled = true;
+            }
+        });
+    </script>
 </body>
 </html>
