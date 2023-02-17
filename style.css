@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 1;
     padding: 0;
   }
   
@@ -22,7 +22,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px;
+
   }
   
   .bobux {
@@ -30,9 +31,12 @@
   }
   
   .menu-link {
-    font-size: 24px;
+    font-size: 23px;
     text-decoration: none;
     color: #fff;
+
+    margin-left: 10%;
+
   }
   
   .menu-link:hover {
@@ -42,8 +46,8 @@
   .main-content {
     text-align: center;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10%;
+    transform: translateY(13%);
   }
   
   .main-title {
@@ -53,7 +57,7 @@
   
   .main-desc {
     font-size: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
   }
   
   .input-field {
@@ -76,7 +80,7 @@
     padding: 22px 72px;
     text-decoration: none;
     background: linear-gradient(44deg, #64c08b, #616161);
-    border-radius: 4px;
+    border-radius: 100px;
     margin-left: 8px;
     cursor: pointer;
   }
