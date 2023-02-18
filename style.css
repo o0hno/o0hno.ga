@@ -24,9 +24,20 @@
   }
   
   .menu-link {
-    font-size: 13px;
+    place-items: center;
+    background: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 26px;
+    font-size: 150%;
     text-decoration: none;
     color: #fff;
+    position: absolute;
+    top: 3%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
 
 
   }
