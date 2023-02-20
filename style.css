@@ -1,20 +1,24 @@
-
-  
-  body {
+body {
     margin: auto;
-
     background-color: #191919;
     color: #fff;
-    justify-content: center;
+
     
 
   }
-  
+
+  div {
+    text-align: center;
+  }
+
 img {
     margin: auto;
     display: flex;
 
   }
+
+
+
 .info {
     position: absolute;
     text-decoration: none;
@@ -38,9 +42,9 @@ img {
   color: #fff;
   margin: auto;
   text-align: center;
-  font-size: 400%;
-  width: 40%;
-  margin-top: 0%;
+  font-size: 250%;
+  width: 50%;
+  margin-top: 1%;
   
 
 }
@@ -62,10 +66,10 @@ img {
   
 }
 
-  .button {
+
+.button {
     margin: auto;
     display: inline-block;
-    margin-left: 46%;
     margin-top: 2%;
     justify-content: center;
     color: #fff;
@@ -73,7 +77,46 @@ img {
     text-decoration: none;
     background: linear-gradient(44deg, #64c08b, #616161);
     border-radius: 100px;
+}
 
-
+/* Для экранов меньше 600px ширины */
+@media (max-width: 600px) {
+  body {
+    font-size: 13px;
   }
-  
+  .button {
+    font-size: 1.5em;
+    padding: 10px 30px;
+  }
+  .text1 {
+    margin: auto;
+    text-align: center;
+    font-size: 250%;
+    width: 50%;
+    margin-top: 30%;
+  }
+  .text {
+    margin: auto;
+    text-align: center;
+    font-size: 160%;
+    width: 100%;
+    margin-top: 0%;
+  }
+  .info {
+    margin: auto;
+    margin-left: 0;
+    margin-top: -3%;
+    text-align: center;
+    
+    text-decoration: none;
+  }
+  .bobux {
+    margin: auto;
+    text-align: center;
+    font-size: 160%;
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 1%;
+    
+  }
+}
