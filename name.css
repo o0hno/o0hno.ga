@@ -1,75 +1,64 @@
-body{
-    margin: 0;
+
+
+html{
+    margin: auto;
     padding: 0%;
     font-family: sans-serif;
     background-color: #191919;
     font-size: 1rem;
     height: 400px;
+    justify-content: center;
+}
+div {
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 .Button {
-    display: grid;
-    place-items: center;
-    width: 100px;
-    height: 50px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100px;
     background: none;
-    border: 0;
-    display: block;
-    text-align: center;
     border: 2px solid #acacac;
     padding: 14px 1px;
-    outline: none;
     color: rgb(167, 226, 187);
     border-radius: 24px;
-    transition: 0.50s;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 410px; 
     cursor: pointer;
 }
 
 .Nametext {
-    display: grid;
-    place-items: center;
-    width: 300px;
-    height: 20px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100%;
+    width: 300px;
     background: none;
-    border: 0;
-    display: block;
     text-align: center;
     border: 2px solid #acacac;
     padding: 14px 1px;
-    outline: none;
     color: rgb(255, 255, 255);
     border-radius: 24px;
     transition: 0.50s;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 350px;
+
+
 }
 
 .textrobux {
-    display: grid;
-    place-items: center;
-    width: 500px;
-    height: 50px;
     margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
     background: none;
-    border: 0;
     display: block;
     text-align: center;
     border: 2px solid #acacac;
     padding: 14px 1px;
-    outline: none;
     color: rgb(240, 233, 233);
     border-radius: 24px;
     transition: 0.50s;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 200px;
 }
