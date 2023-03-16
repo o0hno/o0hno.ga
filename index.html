@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="bobux4.png" type="x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 <body>
     <section class="wrapper">
@@ -17,13 +18,21 @@
     <div class="main">
         <a class="info" data-aos="fade-up" data-aos-anchor-placement="center-center" href="info.html">Вопросы?</a>
 </div>
-    <h1 class="text1" data-aos="fade-up" data-aos-anchor-placement="center-center">Робуксы бесплатно</h1>
-    <h1 class="text" data-aos="fade-up" data-aos-anchor-placement="center-center">Хотите получить бесплатно робукс? Введите свой никнейм. Нажмите кнопку «Хочу» чтобы получить.</h1>
+    <h1 class="text1" data-aos="fade-up" data-aos-anchor-placement="center-center"><span class="auto-type"></span></h1>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Бесплатные Робуксы!", "Получите!"],
+            typeSpeed: 50,
+            backSpeed: 80,
+            loop: true
+        })
+    </script>
+    <h1 class="text" data-aos="fade-up" data-aos-anchor-placement="center-center">Хотите получить Бесплатные Робуксы? Введите свой никнейм. Нажмите кнопку «Хочу» чтобы получить.</h1>
     <a href="name.html" class="button" data-aos="fade-up" data-aos-anchor-placement="center-center">Хочу</a>
     </div>
-
-
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
