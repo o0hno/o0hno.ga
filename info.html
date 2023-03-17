@@ -5,54 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOBUX</title>
+    <link rel="shortcut icon" href="bobux4.png" type="x-icon">
     <link rel="stylesheet" href="info.css">
-    <link rel="shortcut icon" href="bobux4.png" type="image/x-icon">
-    	<style>
-		#typing-text {
-			display: inline-block;
-			white-space: nowrap;
-			overflow: hidden;
-			letter-spacing: .15em;
-			animation: typing 4s steps(50) 1s 1 normal both;
-		}
-
-		@keyframes typing {
-			from { width: 0; }
-			to { width: 100%; }
-		}
-	</style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
-<body> 
-    <header>
-        <div class="container">
-            <div class="header">
-                <img data-aos="fade-up" data-aos-anchor-placement="center-center" src="bobux4.png" width="100" class="logo" alt="">
-                    <a href="#" class="menu-link"></a>
-                </nav>
-            </div>
-        </div>
+<body>
+    <header class="header">
+        <a href="#" class="logo">BOBUX</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;">Главная</a>
+            <a href="info.html" style="--i:2;" class="active">Вопросы</a>
+            <a href="about.html" style="--i:3;">О нас</a>
+        </nav>
     </header>
-    <main>
-        <div class="container">
-            <div class="main-content">
-                <h1 id="typing-text" data-aos="fade-up" data-aos-anchor-placement="center-center">Это обман?</h1>
-                <p class="main-desc" data-aos="fade-up" data-aos-anchor-placement="center-center">Ответ: Нет, это не обман. Здесь вы действительно можете получить Robux, даже 100 миллиардов Robux, так что попробуйте.</p>
-                <h1 id="typing-text" data-aos="fade-up" data-aos-anchor-placement="center-center">Как получить Робукс?</h1>
-                <p class="main-desc1" data-aos="fade-up" data-aos-anchor-placement="center-center">Ответ: Я не знаю, как получить Robux. Я вижу это в первый раз, но здесь определенно есть обман, чтобы украсть ваши данные.</p>
-                <h1 id="typing-text" data-aos="fade-up" data-aos-anchor-placement="center-center">Почему это бесплатно?</h1>
-                <p class="main-desc2" data-aos="fade-up" data-aos-anchor-placement="center-center">Ответ: Это не бесплатно. Когда человек нажимает кнопку «Получить», а затем его учетная запись украдена и заблокирована, она работает через файлы cookie.</p>
-                <a href="index.html" class="button" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Обратно</a>
-                <h1>
 
-                </h1>
-            
-
-            </div>
+    <section class="home">
+        <div class="home-content">
+            <h1>Это обман?</h1>
+            <p>Ответ: Нет, это не обман. Здесь вы действительно можете получить Robux, даже 100 миллиардов Robux, так что попробуйте.</p>
+            <h1>Как получить Робукс?</h1>
+            <p>Ответ: Я не знаю, как получить Robux. Я вижу это в первый раз, но здесь определенно есть обман, чтобы украсть ваши данные.</p>
+            <h1>Почему это бесплатно?</h1>
+            <p>Ответ: Это не бесплатно. Когда человек нажимает кнопку «Получить», а затем его учетная запись украдена и заблокирована, она работает через файлы cookie.</p>
+            <a href="index.html" class="btn">Обратно</a>
         </div>
-    </main>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        
+
+        <div class="home-img">
+            <img src="bobux4.png" alt="">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
